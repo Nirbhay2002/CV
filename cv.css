@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@500&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Spline+Sans+Mono:wght@500&family=Ubuntu+Mono&display=swap');
+
 body{
     background: #DCDEE5;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top{
@@ -50,10 +54,13 @@ hr{
     margin: 50px;
 }
 
-.content> p{
+.content p{
     color: #071448;
     font-size: 25px;
     margin: 50px;
+}
+.about{
+    width: 80%;
 }
 
 .sidebox{
@@ -68,7 +75,7 @@ hr{
     background: -webkit-linear-gradient(top, #071448 0%, black 100%);
 }
 
-.sidebox > h1{
+.sidebox  h1{
 
     color: white;
     text-align: center;
@@ -79,15 +86,21 @@ hr{
 .sidebox hr{
     width: 100px;
 }
-
-.sidebox > p{
-
-    font-size: 25px;
-    color: white; 
-    margin-bottom: 50px;
-    margin-left: 20px;
+.sidebox ul{
+    padding-inline-start: 0px;
 }
 
-
-
-
+.sidebox li{
+    font-size: 1.5rem;
+    color: white;
+    list-style: none;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.sidebox li a{
+    text-decoration: none;
+    color: white;
+}
+.sidebox li:hover{
+    background: rgb(29, 1, 95);
+}
